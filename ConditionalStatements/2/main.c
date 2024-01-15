@@ -8,5 +8,5 @@ int main() {
     {
         printf("Accept positive number only!");
     }
-    printf("%lf", sqrt((double) input));
+    printf("Square root of %lf is %lf", (double) input, sqrt((double) input));
 }
