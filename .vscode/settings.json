@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.conf": "ini",
+        "stdlib.h": "c"
+    }
+}
