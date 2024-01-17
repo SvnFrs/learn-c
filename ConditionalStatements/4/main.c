@@ -10,5 +10,5 @@ int main() {
     scanf("%d", &second);
     second > first && printf("Comparison results: %d is greater than %d", second, first) && exit;
     second < first && printf("Comparison results: %d is less than %d", second, first) && exit;
-    second == first && printf("Comparison results: %d is equal to %d", second, first) && exit;
+    second == first && printf("Comparison results: Both number are equal") && exit;
 }
