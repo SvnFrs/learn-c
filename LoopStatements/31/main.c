@@ -12,9 +12,13 @@ int main() {
         printf("%d ", i);
         for (int j = i-1; j > 0; j--)
         {
+            if (j == 1)
+            {
+                printf("%d", j);
+                break;
+            }
             printf("%d ", j);
         }
         printf("\n");
-        
     }
 }
